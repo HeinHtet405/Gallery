@@ -16,20 +16,23 @@
 //            $user->last_name = "Doe";
 //            
 //            $user->create();
-
 //            $user = User::find_user_by_id(6);
 //            $user->user_name = "David";
 //            $user->password = "david123434";
 //            $user->first_name = "David";
 //            $user->last_name = "WILLIAMS";
 //            $user->update();
-
-             $user = new User();
-             $user->username = "Sudent";
-             $user->password = "ssw34234";
-             $user->first_name = "SOL";
-             $user->last_name = "Dont";
-             $user->create();
+//             $user = new User();
+//             $user->username = "Sudent";
+//             $user->password = "ssw34234";
+//             $user->first_name = "SOL";
+//             $user->last_name = "Dont";
+//             $user->create();
+         
+            $users = User::find_all();
+            foreach ($users as $user) {
+                echo $user->username;
+            }
             ?>
 
             <ol class="breadcrumb">
