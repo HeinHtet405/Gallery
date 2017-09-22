@@ -22,17 +22,18 @@
 //            $user->first_name = "David";
 //            $user->last_name = "WILLIAMS";
 //            $user->update();
-//             $user = new User();
-//             $user->username = "Sudent";
-//             $user->password = "ssw34234";
-//             $user->first_name = "SOL";
-//             $user->last_name = "Dont";
-//             $user->create();
+           
+//             $photo = new Photo();
+//             $photo->title = "testing photo data";
+//             $photo->size = 20;
+//             $photo->create();
          
-            $users = User::find_all();
-            foreach ($users as $user) {
-                echo $user->username;
-            }
+//            $photos = Photo::find_all();
+//            foreach ($photos as $photo) {
+//                echo $photo->title;
+//            }
+            
+            echo INCLUDES_PATH;
             ?>
 
             <ol class="breadcrumb">
