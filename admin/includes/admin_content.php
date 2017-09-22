@@ -7,9 +7,8 @@
                 ADMIN
                 <small>Subheading</small>
             </h1>
-            
-            <?php 
-            
+
+            <?php
 //            $user = new User();
 //            $user->username = "Example_username";
 //            $user->password = "Example_password";
@@ -17,17 +16,22 @@
 //            $user->last_name = "Doe";
 //            
 //            $user->create();
-            
-//            $user = User::find_user_by_id(3);
+
+//            $user = User::find_user_by_id(6);
+//            $user->user_name = "David";
+//            $user->password = "david123434";
+//            $user->first_name = "David";
 //            $user->last_name = "WILLIAMS";
 //            $user->update();
-            
-//             $user = User::find_user_by_id(3);
-//             $user->delete();
-            
-            
+
+             $user = new User();
+             $user->username = "Sudent";
+             $user->password = "ssw34234";
+             $user->first_name = "SOL";
+             $user->last_name = "Dont";
+             $user->create();
             ?>
-        
+
             <ol class="breadcrumb">
                 <li>
                     <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
